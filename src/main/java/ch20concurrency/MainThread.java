@@ -8,4 +8,7 @@ package ch20concurrency;
  * To change this template use File | Settings | File Templates.
  */
 public class MainThread {
+    public static void main(String[] args){
+       new LiftOff().run();
+    }
 }
