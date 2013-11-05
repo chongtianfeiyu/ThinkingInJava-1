@@ -1,4 +1,4 @@
-package ch20concurrency.exercise;
+package concurrency;
 
 import java.util.Random;
 import java.util.concurrent.ExecutorService;

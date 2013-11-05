@@ -1,4 +1,4 @@
-package ch20concurrency;
+package concurrency;
 
 /**
  * Created with IntelliJ IDEA.

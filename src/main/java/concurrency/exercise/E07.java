@@ -1,4 +1,4 @@
-package ch20concurrency.exercise;
+package concurrency.exercise;
 
 /**
  * User: ViaPro

@@ -1,4 +1,4 @@
-package ch20concurrency.exercise;
+package concurrency.exercise;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
