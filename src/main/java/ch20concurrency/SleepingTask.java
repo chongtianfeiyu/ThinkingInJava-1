@@ -17,7 +17,7 @@ public class SleepingTask extends LiftOff {
         try {
             while (countDown-- > 0) {
                 System.out.print(status());
-                TimeUnit.MILLISECONDS.sleep(800);
+                TimeUnit.MILLISECONDS.sleep(800); //让当前线程Sleep的方法
             }
         } catch (InterruptedException e) {
             System.out.println("Interrupted");
