@@ -2,35 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c332c42-385d-4ab2-98ea-65280f3d8342" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\BasicThreads.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/BasicThreads.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\CachedThreadPool.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/CachedThreadPool.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\CallableDemo.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/CallableDemo.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\DaemonFromFactory.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/DaemonFromFactory.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\DaemonThreadFactory.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/DaemonThreadFactory.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\DaemonThreadPoolExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/DaemonThreadPoolExecutor.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\Daemons.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/Daemons.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\DaemonsDontRunFinally.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/DaemonsDontRunFinally.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\FixedThreadPool.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/FixedThreadPool.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\LiftOff.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/LiftOff.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\MainThread.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/MainThread.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\MoreBasicThreads.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/MoreBasicThreads.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\SimpleDaemons.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/SimpleDaemons.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\SimplePriorities.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/SimplePriorities.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\SingleThreadExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/SingleThreadExecutor.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\SleepingTask.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/SleepingTask.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\exercise\E01.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/exercise/E01.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\exercise\E02.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/exercise/E02.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\exercise\E03.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/exercise/E03.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\exercise\E04.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/exercise/E04.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\exercise\E05.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/exercise/E05.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\exercise\E06.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/E06.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\exercise\E07.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/exercise/E07.java" />
-      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\exercise\FutureDemo.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/FutureDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/Bar.java" />
+      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\ch20concurrency\desktop.ini" afterPath="" />
+      <change type="MOVED" beforePath="C:\Dev\GitHub\ThinkingInJava\src\main\java\concurrency\E06.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/exercise/E06.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ThinkingInJava.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383646889681" ignored="false" />
+    <file path="/Dummy.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383651752497" ignored="false" />
     <file path="$PROJECT_DIR$/../Think/.idea/workspace.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383370881826" ignored="false" />
     <file path="/LiftOff.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383391451612" ignored="false" />
     <file path="/MainThread.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383371530996" ignored="false" />
@@ -65,6 +44,7 @@
     <file path="/E05.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383641403536" ignored="false" />
     <file path="/FutureDemo.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383639802365" ignored="false" />
     <file path="/E06.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383645128577" ignored="false" />
+    <file path="/Bar.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383653359997" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,15 +114,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="E02.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/exercise/E02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="660" selection-end="848" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="E03.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/exercise/E03.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -162,9 +133,9 @@
         </entry>
       </file>
       <file leaf-file-name="E06.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E06.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/exercise/E06.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="23" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0">
+            <state line="36" column="23" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,10 +159,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicThreads.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BasicThreads.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/BasicThreads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="79" selection-start="203" selection-end="203" vertical-scroll-proportion="0.2090164">
+            <state line="10" column="44" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bar.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Bar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="24" selection-start="236" selection-end="236" vertical-scroll-proportion="0.3251366">
               <folding />
             </state>
           </provider>
@@ -233,8 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ch20concurrency/DaemonThreadPoolExecutor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch20concurrency/Daemon.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch20concurrency/Daemons.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch20concurrency/ADaemon.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch20concurrency/DaemonsDontRunFinally.java" />
@@ -249,6 +227,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ch20concurrency/exercise/E05.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch20concurrency/exercise/E06.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch20concurrency/exercise/E07.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/Foo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/Bar.java" />
       </list>
     </option>
   </component>
@@ -321,7 +301,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -443,12 +422,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch20concurrency" />
+              <option name="myItemId" value="concurrency" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bar.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,29 +460,7 @@
       <recent name="C:\Dev\GitHub\ThinkingInJava\src\main\java\util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E06">
-    <configuration default="false" name="E02" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ch20concurrency.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ch20concurrency.exercise.E02" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkingInJava" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Bar">
     <configuration default="false" name="E03" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -579,6 +541,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ch20concurrency.exercise.E06" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkingInJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Bar" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="concurrency.Bar" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -685,19 +669,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.E02" />
-      <item index="1" class="java.lang.String" itemvalue="Application.E03" />
-      <item index="2" class="java.lang.String" itemvalue="Application.E04" />
-      <item index="3" class="java.lang.String" itemvalue="Application.E05" />
-      <item index="4" class="java.lang.String" itemvalue="Application.E06" />
+      <item index="0" class="java.lang.String" itemvalue="Application.E03" />
+      <item index="1" class="java.lang.String" itemvalue="Application.E04" />
+      <item index="2" class="java.lang.String" itemvalue="Application.E05" />
+      <item index="3" class="java.lang.String" itemvalue="Application.E06" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Bar" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.E06" />
-        <item index="1" class="java.lang.String" itemvalue="Application.E05" />
-        <item index="2" class="java.lang.String" itemvalue="Application.E04" />
-        <item index="3" class="java.lang.String" itemvalue="Application.E03" />
-        <item index="4" class="java.lang.String" itemvalue="Application.E02" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Bar" />
+        <item index="1" class="java.lang.String" itemvalue="Application.E06" />
+        <item index="2" class="java.lang.String" itemvalue="Application.E05" />
+        <item index="3" class="java.lang.String" itemvalue="Application.E04" />
+        <item index="4" class="java.lang.String" itemvalue="Application.E03" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -746,6 +730,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266187" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -759,7 +744,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -828,13 +812,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Daemons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="295" selection-end="295" vertical-scroll-proportion="0.27868852">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/DaemonFromFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="17" selection-start="234" selection-end="234" vertical-scroll-proportion="0.23224044">
@@ -903,9 +880,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E06.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/exercise/E06.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="23" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0">
+        <state line="36" column="23" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -933,7 +910,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/BasicThreads.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="79" selection-start="203" selection-end="203" vertical-scroll-proportion="0.2090164">
+        <state line="10" column="44" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="236" selection-end="236" vertical-scroll-proportion="0.3251366">
           <folding />
         </state>
       </provider>
