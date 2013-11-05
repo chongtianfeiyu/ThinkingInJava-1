@@ -25,6 +25,9 @@ public class E02 {
 
 class Fibonacci implements Runnable, Generator<Long> {
 
+    private static int taskCount = 0;
+    private final int ID = ++taskCount;
+
     private long count = 0;
     private final int n;
 
@@ -47,7 +50,7 @@ class Fibonacci implements Runnable, Generator<Long> {
         Long[] sequence = new Long[n];
         for (int i = 0; i < n; i++)
             sequence[i] = next();
-        System.out.println("Line " + n + ": " + Arrays.toString(sequence));
+        System.out.println( Thread.currentThread() + ", " + "ID = " + ID + ", Line" + n + ": " + Arrays.toString(sequence));
     }
 
 }
