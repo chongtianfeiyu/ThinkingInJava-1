@@ -41,3 +41,16 @@ public class CallableDemo {
             }
     }
 }
+
+/*
+result of TaskWithResult0
+result of TaskWithResult1
+result of TaskWithResult2
+result of TaskWithResult3
+result of TaskWithResult4
+result of TaskWithResult5
+result of TaskWithResult6
+result of TaskWithResult7
+result of TaskWithResult8
+result of TaskWithResult9
+*/
