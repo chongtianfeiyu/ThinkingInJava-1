@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c332c42-385d-4ab2-98ea-65280f3d8342" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/EvenGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/AttemptLocking.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/MutexEvenGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/SynchronizedEvenGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/EvenChecker.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/EvenChecker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/EvenGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/EvenGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkingInJava.iml" afterPath="$PROJECT_DIR$/ThinkingInJava.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ThinkingInJava.iws" />
@@ -54,7 +59,10 @@
     <file path="/IntGenerator.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383790341707" ignored="false" />
     <file path="/EvenChecker.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383709482874" ignored="false" />
     <file path="/App.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383720021740" ignored="false" />
-    <file path="/EvenGenerator.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383876140787" ignored="false" />
+    <file path="/EvenGenerator.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383876874072" ignored="false" />
+    <file path="/SynchronizedEvenGenerator.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383880251561" ignored="false" />
+    <file path="/MutexEvenGenerator.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383880502163" ignored="false" />
+    <file path="/AttemptLocking.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383884389306" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,24 +123,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="File.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="86" selection-start="4844" selection-end="4844" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientNotifForwarder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/com/sun/jmx/remote/internal/ClientNotifForwarder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="58" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Generator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -154,17 +144,76 @@
       <file leaf-file-name="IntGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/IntGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="126" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+            <state line="9" column="20" selection-start="131" selection-end="139" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EvenGenerator.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EvenGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/EvenGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="21" selection-start="447" selection-end="447" vertical-scroll-proportion="0.6089552">
+            <state line="13" column="67" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SynchronizedEvenGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SynchronizedEvenGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="43" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MutexEvenGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/MutexEvenGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="61" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttemptLocking.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/AttemptLocking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="59" selection-start="281" selection-end="281" vertical-scroll-proportion="0.18335901">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReentrantLock.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="118" column="59" selection-start="3730" selection-end="3730" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#27617#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="379" column="61" selection-start="15969" selection-end="15969" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#91128#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#61120#61128#0" expanded="false" />
+                <element signature="e#61743#61751#0" expanded="false" />
+                <element signature="e#62415#62423#0" expanded="false" />
+                <element signature="e#88217#88225#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,7 +221,7 @@
       <file leaf-file-name="EvenChecker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/EvenChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="45" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+            <state line="42" column="18" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,9 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/Foo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/Bar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/SimpleThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/SelfManaged.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/ThreadVariations.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/Joining.java" />
@@ -208,14 +254,35 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrency/NativeExceptionHandling.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/CaptureUncaughtException.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/SettingDefaultHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/EvenChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/GetFileSize.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/LiftOff.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/IntGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/EvenChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/EvenGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/SynchronizedEvenGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/MutexEvenGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/AttemptLocking.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ThinkingInJava" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="720" />
@@ -444,73 +511,7 @@
       <recent name="C:\Dev\GitHub\ThinkingInJava\src\main\java\util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EvenGenerator">
-    <configuration default="false" name="CaptureUncaughtException" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="concurrency.CaptureUncaughtException" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkingInJava" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SettingDefaultHandler" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="concurrency.SettingDefaultHandler" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkingInJava" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="util.App" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkingInJava" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.AttemptLocking">
     <configuration default="false" name="GetFileSize" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -555,10 +556,98 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="SynchronizedEvenGenerator" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="concurrency.SynchronizedEvenGenerator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkingInJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MutexEvenGenerator" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="concurrency.MutexEvenGenerator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkingInJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AttemptLocking" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="concurrency.AttemptLocking" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkingInJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -647,19 +736,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CaptureUncaughtException" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SettingDefaultHandler" />
-      <item index="2" class="java.lang.String" itemvalue="Application.App" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GetFileSize" />
-      <item index="4" class="java.lang.String" itemvalue="Application.EvenGenerator" />
+      <item index="0" class="java.lang.String" itemvalue="Application.GetFileSize" />
+      <item index="1" class="java.lang.String" itemvalue="Application.EvenGenerator" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SynchronizedEvenGenerator" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MutexEvenGenerator" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AttemptLocking" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.EvenGenerator" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GetFileSize" />
-        <item index="2" class="java.lang.String" itemvalue="Application.App" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SettingDefaultHandler" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CaptureUncaughtException" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AttemptLocking" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MutexEvenGenerator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SynchronizedEvenGenerator" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EvenGenerator" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GetFileSize" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -697,27 +786,27 @@
     <frame x="720" y="0" width="720" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1256" height="716" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24923548" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973614" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266187" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53058106" sideWeight="0.60026383" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.42259413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1256" height="716" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.252518" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -790,33 +879,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/LiftOff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="398" selection-end="398" vertical-scroll-proportion="0.44347826">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="13" selection-start="1834" selection-end="1834" vertical-scroll-proportion="-0.08882522" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="40" selection-start="71" selection-end="71" vertical-scroll-proportion="0.07172996" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.7.0_45/jre/lib/rt.jar!/sun/net/httpserver/ServerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="25" selection-start="4723" selection-end="4723" vertical-scroll-proportion="-0.0876217" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="17" selection-start="4376" selection-end="4376" vertical-scroll-proportion="-4.6746817" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/jdk1.7.0_45/jre/lib/rt.jar!/sun/nio/ch/AsynchronousChannelGroupImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="15" selection-start="155" selection-end="155" vertical-scroll-proportion="-0.63143253" />
@@ -867,26 +929,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/IntGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="20" selection-start="131" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/EvenChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="45" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+        <state line="42" column="18" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/IntGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/EvenGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="126" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+        <state line="13" column="67" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/EvenGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SynchronizedEvenGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="21" selection-start="447" selection-end="447" vertical-scroll-proportion="0.6089552">
+        <state line="13" column="43" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/MutexEvenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="61" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="59" selection-start="3730" selection-end="3730" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#27617#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="379" column="61" selection-start="15969" selection-end="15969" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#91128#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#61120#61128#0" expanded="false" />
+            <element signature="e#61743#61751#0" expanded="false" />
+            <element signature="e#62415#62423#0" expanded="false" />
+            <element signature="e#88217#88225#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/AttemptLocking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="59" selection-start="281" selection-end="281" vertical-scroll-proportion="0.18335901">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

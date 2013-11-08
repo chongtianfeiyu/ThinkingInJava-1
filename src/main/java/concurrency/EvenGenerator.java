@@ -10,7 +10,9 @@ public class EvenGenerator extends IntGenerator {
 
     @Override
     public int next() {
+        //在这个位置
         ++currentEvenValue;
+//        Thread.yield();    //加速产生线程不安全
         ++currentEvenValue;
         return currentEvenValue;
     }

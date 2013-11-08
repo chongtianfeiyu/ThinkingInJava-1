@@ -40,6 +40,6 @@ public class EvenChecker implements Runnable {
     }
 
     public static void test(IntGenerator gp) {
-        test(gp, 10);
+        test(gp, 2);
     }
 }
