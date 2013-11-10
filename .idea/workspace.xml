@@ -2,81 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c332c42-385d-4ab2-98ea-65280f3d8342" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/WaxOMatic.java" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\ADaemon.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\ArchiveSearcher.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\AttemptLocking$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\AttemptLocking.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\Bar.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\BasicThreads.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\CachedThreadPool.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\CallableDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\CaptureUncaughtException.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\Daemon.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\DaemonFromFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\DaemonSpawn.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\DaemonThreadFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\DaemonThreadPoolExecutor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\Daemons.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\DaemonsDontRunFinally.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\EvenChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\EvenGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\ExceptionThread.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\ExceptionThread2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\FixedThreadPool.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\Foo.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\FutureDemo$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\FutureDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\HandlerThreadFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\InnerRunnable1$Inner.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\InnerRunnable1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\InnerRunnable2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\InnerRunnable2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\InnerThread1$Inner.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\InnerThread1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\InnerThread2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\InnerThread2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\IntGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\Joiner.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\Joining.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\LiftOff.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\MainThread.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\MoreBasicThreads.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\MutexEvenGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\MyUncaughtExceptionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\NativeExceptionHandling.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\SelfManaged.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\SettingDefaultHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\SimpleDaemons.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\SimplePriorities.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\SimpleThread.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\SingleThreadExecutor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\Sleeper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\SleepingTask.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\SynchronizedEvenGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\TaskWithResult.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\ThreadMethod$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\ThreadMethod.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\ThreadVariations.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\exercise\CallableFib.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\exercise\E01.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\exercise\E02.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\exercise\E03.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\exercise\E04.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\exercise\E05.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\exercise\E06.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\exercise\E07.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\exercise\Fibonacci.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\exercise\MyTask.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\concurrency\exercise\SleepRamdonTime.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\util\Generator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\util\GetFileSize.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\GitHub\ThinkingInJava\target\classes\util\Print.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/AtomicEvenGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/NotifyVsNotifyAll.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/SerialNumberChecker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ThinkingInJava.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383875815318" ignored="false" />
+    <file path="/Dummy.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384060749469" ignored="false" />
     <file path="$PROJECT_DIR$/../Think/.idea/workspace.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383370881826" ignored="false" />
     <file path="/LiftOff.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383391451612" ignored="false" />
     <file path="/MainThread.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383371530996" ignored="false" />
@@ -128,6 +61,10 @@
     <file path="/MutexEvenGenerator.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383880502163" ignored="false" />
     <file path="/AttemptLocking.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383884389306" ignored="false" />
     <file path="/WaxOMatic.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383897812973" ignored="false" />
+    <file path="/NotifyVsNotifyAll.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383899017387" ignored="false" />
+    <file path="/AtomicEvenGenerator.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384060944391" ignored="false" />
+    <file path="/CircularSet.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384061162664" ignored="false" />
+    <file path="/SerialNumberChecker.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384061146370" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +79,23 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/concurrency/WaxOMatic.java" line="34" class="concurrency.Car" package="concurrency">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -179,23 +133,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/concurrency/WaxOMatic.java" line="34" class="concurrency.Car" package="concurrency">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -205,28 +142,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Generator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/Generator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntGenerator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/IntGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="131" selection-end="139" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EvenGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/EvenGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="67" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+            <state line="13" column="27" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -235,7 +154,7 @@
       <file leaf-file-name="SynchronizedEvenGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SynchronizedEvenGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="43" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+            <state line="13" column="36" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -244,10 +163,8 @@
       <file leaf-file-name="MutexEvenGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/MutexEvenGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="61" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="18" column="13" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -255,21 +172,44 @@
       <file leaf-file-name="AttemptLocking.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/AttemptLocking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="60" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="13" column="27" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WaxOMatic.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WaxOMatic.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/WaxOMatic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="76" selection-start="2389" selection-end="2389" vertical-scroll-proportion="0.62794614">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="87" column="13" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotifyVsNotifyAll.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/NotifyVsNotifyAll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AtomicEvenGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/AtomicEvenGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="3" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerialNumberChecker.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SerialNumberChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="38" selection-start="212" selection-end="212" vertical-scroll-proportion="0.40614334">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -278,10 +218,7 @@
         <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="118" column="59" selection-start="3730" selection-end="3730" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#27617#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -290,25 +227,7 @@
         <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="379" column="61" selection-start="15969" selection-end="15969" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#91128#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#61120#61128#0" expanded="false" />
-                <element signature="e#61743#61751#0" expanded="false" />
-                <element signature="e#62415#62423#0" expanded="false" />
-                <element signature="e#88217#88225#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EvenChecker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/EvenChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="18" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -331,10 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/ThreadVariations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/Joining.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/ExceptionThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/NativeExceptionHandling.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/CaptureUncaughtException.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/SettingDefaultHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/App.java" />
@@ -347,6 +262,10 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrency/MutexEvenGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/AttemptLocking.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/WaxOMatic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/NotifyVsNotifyAll.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/AtomicEvenGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/CircularSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/SerialNumberChecker.java" />
       </list>
     </option>
   </component>
@@ -542,6 +461,36 @@
               <option name="myItemId" value="concurrency" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WaxOMatic.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -583,12 +532,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -748,19 +697,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -787,6 +723,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -874,9 +823,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="720" y="0" width="720" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1256" height="716" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -888,19 +836,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266187" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53058106" sideWeight="0.60026383" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.42259413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5275229" sideWeight="0.60026383" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.42259413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1256" height="716" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.252518" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -969,35 +918,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="17" selection-start="2775" selection-end="2775" vertical-scroll-proportion="-0.78825134" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="22" selection-start="1705" selection-end="1705" vertical-scroll-proportion="-4.689891" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="56" selection-start="473" selection-end="473" vertical-scroll-proportion="0.3715847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/com/sun/jmx/remote/internal/ClientNotifForwarder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="58" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="107" column="58" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="86" selection-start="4844" selection-end="4844" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="114" column="86" selection-start="4844" selection-end="4844" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/GetFileSize.java">
@@ -1024,74 +952,77 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/EvenChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="18" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/EvenGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="67" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+        <state line="13" column="27" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SynchronizedEvenGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="43" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+        <state line="13" column="36" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/MutexEvenGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="61" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="18" column="13" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="118" column="59" selection-start="3730" selection-end="3730" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#27617#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="379" column="61" selection-start="15969" selection-end="15969" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#91128#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#61120#61128#0" expanded="false" />
-            <element signature="e#61743#61751#0" expanded="false" />
-            <element signature="e#62415#62423#0" expanded="false" />
-            <element signature="e#88217#88225#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/AttemptLocking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="13" column="27" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/WaxOMatic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="76" selection-start="2389" selection-end="2389" vertical-scroll-proportion="0.62794614">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="87" column="13" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/NotifyVsNotifyAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/AtomicEvenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SerialNumberChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="38" selection-start="212" selection-end="212" vertical-scroll-proportion="0.40614334">
+          <folding />
         </state>
       </provider>
     </entry>
