@@ -17,6 +17,7 @@ class CircularSet {
     public CircularSet(int size) {
         array = new int[size];
         len = size;
+        // Initialize to a value
         for (int i = 0; i < size; i++)
             array[i] = -1;
     }
