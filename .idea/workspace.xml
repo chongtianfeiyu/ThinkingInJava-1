@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c332c42-385d-4ab2-98ea-65280f3d8342" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/exercise/RunnableAndThreadTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/FillingLists.java" afterPath="$PROJECT_DIR$/src/main/java/containers/FillingLists.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/RandomGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/util/RandomGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/SynObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ThinkingInJava.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384392023957" ignored="false" />
+    <file path="/Dummy.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384522295018" ignored="false" />
     <file path="$PROJECT_DIR$/../Think/.idea/workspace.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383370881826" ignored="false" />
     <file path="/LiftOff.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383391451612" ignored="false" />
     <file path="/MainThread.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383371530996" ignored="false" />
@@ -73,6 +71,8 @@
     <file path="/CollectionData.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384395392477" ignored="false" />
     <file path="/CollectionDataTest.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384328237410" ignored="false" />
     <file path="/RunnableAndThreadTest.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384417742081" ignored="false" />
+    <file path="/concurrency.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384522767696" ignored="false" />
+    <file path="/SynObject.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384522768759" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="jar://C:/Java/jdk1.7.0_45/src.zip!/java/beans/Beans.java" line="71" class="java.beans.Beans" package="java.beans">
         <option name="WATCH_ENTRY" value="true" />
@@ -165,6 +164,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -174,52 +174,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Iterator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/Iterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="134" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#2299#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/AbstractMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="615" column="35" selection-start="20731" selection-end="20731" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#28296#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FillingLists.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/containers/FillingLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="40" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#660#675#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/Collection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="277" column="51" selection-start="12582" selection-end="12582" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RunnableAndThreadTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/exercise/RunnableAndThreadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="8" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
+            <state line="44" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -243,22 +201,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Object.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/lang/Object.java">
+      <file leaf-file-name="Thread.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="501" column="22" selection-start="23137" selection-end="23137" vertical-scroll-proportion="0.0">
+            <state line="1825" column="48" selection-start="71043" selection-end="71043" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/lang/Thread.java">
+      <file leaf-file-name="Bits.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/nio/Bits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1686" column="23" selection-start="65707" selection-end="65707" vertical-scroll-proportion="0.35155097">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="35" column="6" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Buffer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/nio/Buffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="164" column="27" selection-start="5519" selection-end="5519" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Channel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/nio/channels/Channel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="25" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SynObject.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SynObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="23" selection-start="718" selection-end="718" vertical-scroll-proportion="0.89621085">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BufferOverflowException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/nio/BufferOverflowException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="13" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -290,8 +282,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/SynchronizedEvenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/MutexEvenGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/AttemptLocking.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/WaxOMatic.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/NotifyVsNotifyAll.java" />
@@ -306,6 +296,8 @@
         <option value="$PROJECT_DIR$/src/main/java/util/CollectionData.java" />
         <option value="$PROJECT_DIR$/src/main/java/containers/FillingLists.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/exercise/RunnableAndThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/concurrency.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/SynObject.java" />
       </list>
     </option>
   </component>
@@ -328,10 +320,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="916" />
+    <option name="x" value="720" />
+    <option name="width" value="720" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -396,8 +387,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -412,6 +401,128 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="&lt; 1.7 &gt;" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="channels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -585,73 +696,11 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunnableAndThreadTest.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -994,7 +1043,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="916" extended-state="7" />
+    <frame x="720" y="0" width="720" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1008,21 +1057,21 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266187" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32805756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32721713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22230215" sideWeight="0.6015831" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2323741" sideWeight="0.6015831" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.42216358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53669727" sideWeight="0.6015831" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.42259413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294964" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="92" y="92" width="1256" height="716" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2323741" sideWeight="0.6015831" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1091,61 +1140,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/CountingGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="82" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/CollectionData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="347" column="25" selection-start="16212" selection-end="16212" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#22068#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="8" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#623#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/OrnamentalGarden.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="50" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="134" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#2299#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/AbstractMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="615" column="35" selection-start="20731" selection-end="20731" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#28296#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="615" column="35" selection-start="20731" selection-end="20731" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/containers/FillingLists.java">
@@ -1159,16 +1156,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ThreadVariations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="6" selection-start="3338" selection-end="3350" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="140" column="6" selection-start="3338" selection-end="3350" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="51" selection-start="12582" selection-end="12582" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="277" column="51" selection-start="12582" selection-end="12582" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/lang/Object.java">
@@ -1194,7 +1187,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/exercise/RunnableAndThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="8" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
+        <state line="44" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1825" column="48" selection-start="71043" selection-end="71043" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/nio/Bits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="6" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/nio/BufferOverflowException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="13" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1206,12 +1220,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/lang/Thread.java">
+    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/nio/charset/Charset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1686" column="23" selection-start="65707" selection-end="65707" vertical-scroll-proportion="0.35155097">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="288" column="66" selection-start="12141" selection-end="12141" vertical-scroll-proportion="-4.0182843" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="27" selection-start="5519" selection-end="5519" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.7.0_45/src.zip!/java/nio/channels/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="25" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SynObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="23" selection-start="718" selection-end="718" vertical-scroll-proportion="0.89621085">
+          <folding />
         </state>
       </provider>
     </entry>
