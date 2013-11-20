@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c332c42-385d-4ab2-98ea-65280f3d8342" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/HighPortScanner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/LowPortScanner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/SocketTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/BasicGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/util/BasicGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/SingleFileHTTPServer.java" afterPath="$PROJECT_DIR$/src/main/java/util/SingleFileHTTPServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/util/ParsePhoneNumber.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ThinkingInJava.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384825341305" ignored="false" />
+    <file path="/Dummy.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384913342576" ignored="false" />
     <file path="$PROJECT_DIR$/../Think/.idea/workspace.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383370881826" ignored="false" />
     <file path="/LiftOff.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383391451612" ignored="false" />
     <file path="/MainThread.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383371530996" ignored="false" />
@@ -82,6 +78,20 @@
     <file path="/SocketTest.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384847564613" ignored="false" />
     <file path="/LowPortScanner.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384846953762" ignored="false" />
     <file path="/HighPortScanner.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384849689831" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/SafeCard/src/bean.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384853628408" ignored="false" />
+    <file path="$PROJECT_DIR$/../graylog2-server/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384854501361" ignored="false" />
+    <file path="$PROJECT_DIR$/../graylog2-server/.idea/modules.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384854567042" ignored="false" />
+    <file path="$PROJECT_DIR$/../graylog2-server/.idea/compiler.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384854567042" ignored="false" />
+    <file path="$PROJECT_DIR$/../graylog2-server/.idea/encodings.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384854567042" ignored="false" />
+    <file path="$PROJECT_DIR$/../graylog2-server/.idea/vcs.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384854567042" ignored="false" />
+    <file path="$PROJECT_DIR$/../graylog2-server/.idea/misc.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384854567042" ignored="false" />
+    <file path="$PROJECT_DIR$/../graylog2-server/.idea/workspace.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384854567042" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384856030943" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/.fbfilter.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384856030943" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServer.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384857336215" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/.idea/workspace.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384939748908" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/license/LICENSE.base64.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384913437921" ignored="false" />
+    <file path="/parsePhoneNumber.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384939735200" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +111,23 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/concurrency/WaxOMatic.java" line="34" class="concurrency.Car" package="concurrency">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
@@ -139,23 +166,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/concurrency/WaxOMatic.java" line="34" class="concurrency.Car" package="concurrency">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -165,15 +175,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SynObject.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SynObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="27" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Inet4Address.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/net/Inet4Address.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -187,9 +188,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/util/SingleFileHTTPServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="27" column="43" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -206,9 +205,27 @@
       <file leaf-file-name="SocketTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/SocketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParsePhoneNumber.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/util/ParsePhoneNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="57" selection-start="735" selection-end="735" vertical-scroll-proportion="0.38418078">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Integer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="195" column="71" selection-start="6416" selection-end="6416" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#46452#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -217,18 +234,16 @@
       <file leaf-file-name="LowPortScanner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/LowPortScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="54" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="21" column="17" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HighPortScanner.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HighPortScanner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/HighPortScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="56" selection-start="253" selection-end="253" vertical-scroll-proportion="0.28132388">
+            <state line="15" column="44" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,17 +255,6 @@
         <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/net/SocketImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="72" column="6" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocketOptions.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/net/SocketOptions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="84" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -259,7 +263,7 @@
       <file leaf-file-name="BasicGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/BasicGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="24" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -283,7 +287,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/util/CountingGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/RandomGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/CollectionData.java" />
         <option value="$PROJECT_DIR$/src/main/java/containers/FillingLists.java" />
@@ -299,6 +302,7 @@
         <option value="$PROJECT_DIR$/src/main/java/net/SocketTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/LowPortScanner.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/HighPortScanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/util/parsePhoneNumber.java" />
       </list>
     </option>
   </component>
@@ -321,10 +325,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="-180" />
-    <option name="width" value="960" />
-    <option name="height" value="1080" />
+    <option name="x" value="1432" />
+    <option name="y" value="-188" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -428,10 +432,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -480,11 +480,19 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -500,12 +508,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -513,35 +521,7 @@
       <recent name="C:\Dev\GitHub\ThinkingInJava\src\main\java\util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HighPortScanner">
-    <configuration default="false" name="RunnableAndThreadTest" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="concurrency.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="concurrency.exercise.RunnableAndThreadTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkingInJava" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.parsePhoneNumber">
     <configuration default="false" name="SingleFileHTTPServer" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -630,6 +610,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="parsePhoneNumber" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.util.parsePhoneNumber" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkingInJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -666,19 +668,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -705,6 +694,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -775,19 +777,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.OrnamentalGarden" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RunnableAndThreadTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SingleFileHTTPServer" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SocketTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LowPortScanner" />
-      <item index="5" class="java.lang.String" itemvalue="Application.HighPortScanner" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SingleFileHTTPServer" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SocketTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LowPortScanner" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HighPortScanner" />
+      <item index="5" class="java.lang.String" itemvalue="Application.parsePhoneNumber" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HighPortScanner" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LowPortScanner" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SocketTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SingleFileHTTPServer" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RunnableAndThreadTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.parsePhoneNumber" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HighPortScanner" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LowPortScanner" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SocketTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SingleFileHTTPServer" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -822,8 +824,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-180" width="960" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="1432" y="-188" width="1936" height="1096" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -840,11 +842,11 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16442953" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1684492" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35346755" sideWeight="0.6015831" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.41413045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26737967" sideWeight="0.6015831" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.41452992" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294964" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="92" y="92" width="1256" height="716" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2323741" sideWeight="0.6015831" order="2" side_tool="false" content_ui="combo" />
@@ -919,23 +921,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="423" column="29" selection-start="16245" selection-end="16245" vertical-scroll-proportion="0.35704124" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="967" column="114" selection-start="39998" selection-end="39998" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/io/Closeable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="131" selection-start="669" selection-end="669" vertical-scroll-proportion="0.3457627">
-          <folding />
-        </state>
+        <state line="41" column="131" selection-start="669" selection-end="669" vertical-scroll-proportion="0.3457627" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/net/SocketOptions.java">
@@ -947,18 +935,12 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/net/SocketImplFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="10" selection-start="563" selection-end="563" vertical-scroll-proportion="0.30734465">
-          <folding />
-        </state>
+        <state line="39" column="10" selection-start="563" selection-end="563" vertical-scroll-proportion="0.30734465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../test/src/LowPortScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="164" selection-end="164" vertical-scroll-proportion="0.15367232">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="8" column="48" selection-start="164" selection-end="164" vertical-scroll-proportion="0.15367232" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SynObject.java">
@@ -970,24 +952,13 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/net/InetSocketAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="16" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="63" column="16" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/net/Socket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="193" column="66" selection-start="6413" selection-end="6413" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/SocketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,15 +972,13 @@
     <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/net/SocketImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="6" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/BasicGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="24" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1017,27 +986,46 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/util/SingleFileHTTPServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="43" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/LowPortScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="54" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+        <state line="21" column="17" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/SocketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/HighPortScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="44" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/HighPortScanner.java">
+    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="56" selection-start="253" selection-end="253" vertical-scroll-proportion="0.28132388">
+        <state line="195" column="71" selection-start="6416" selection-end="6416" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#46452#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/util/ParsePhoneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="57" selection-start="735" selection-end="735" vertical-scroll-proportion="0.38418078">
+          <folding />
         </state>
       </provider>
     </entry>
