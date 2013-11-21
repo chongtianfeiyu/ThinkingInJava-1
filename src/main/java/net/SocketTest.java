@@ -17,9 +17,9 @@ public class SocketTest {
             Socket toBaidu = new Socket("www.baidu.com",80);
             System.out.println(toBaidu.isConnected());
         } catch (UnknownHostException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
     }
 }

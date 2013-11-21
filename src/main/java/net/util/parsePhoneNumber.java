@@ -7,6 +7,8 @@ package net.util;
  */
 public class ParsePhoneNumber {
     public static void main(String[] args) {
+        System.out.println(Long.valueOf(phoneNumberToCode("13886654567"),16));
+
     }
 
     public static String phoneNumberToCode(String phoneNumber) {
