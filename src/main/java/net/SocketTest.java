@@ -13,13 +13,14 @@ import java.net.UnknownHostException;
  */
 public class SocketTest {
     public static void main(String[] args){
-        try{
+/*        try{
             Socket toBaidu = new Socket("www.baidu.com",80);
             System.out.println(toBaidu.isConnected());
         } catch (UnknownHostException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
+        System.out.println((System.currentTimeMillis()/1000+2208988800L)/60/60/24/365);
     }
 }
