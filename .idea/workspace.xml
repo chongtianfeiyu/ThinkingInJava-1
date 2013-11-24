@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c332c42-385d-4ab2-98ea-65280f3d8342" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/CopyFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/FileReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/CreateArrayBuffer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/CreateBuffer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/FastCopyFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/MultiPortEcho.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/ReadAndShow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/SliceBuffer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/TypesInByteBuffer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/UseCharsets.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/UseFileLocks.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/UseFloatBuffer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/UseMappedFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/UseScatterGather.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nio/WriteSomeBytes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/nio/CopyFile.java" afterPath="$PROJECT_DIR$/src/main/java/net/nio/CopyFile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ThinkingInJava.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385212433090" ignored="false" />
+    <file path="/Dummy.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385294484278" ignored="false" />
     <file path="$PROJECT_DIR$/../Think/.idea/workspace.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383370881826" ignored="false" />
     <file path="/LiftOff.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383391451612" ignored="false" />
     <file path="/MainThread.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383371530996" ignored="false" />
@@ -186,93 +198,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ComputeTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/util/ComputeTest.java">
+      <file leaf-file-name="MultiPortEcho.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/MultiPortEcho.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+            <state line="20" column="38" selection-start="414" selection-end="414" vertical-scroll-proportion="0.45333335">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DESedeKeySpec.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/jre/lib/jce.jar!/javax/crypto/spec/DESedeKeySpec.class">
+      <file leaf-file-name="WriteSomeBytes.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/WriteSomeBytes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="115" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+            <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DESKeySpec.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/jre/lib/jce.jar!/javax/crypto/spec/DESKeySpec.class">
+      <file leaf-file-name="UseScatterGather.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/UseScatterGather.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="96" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
+            <state line="7" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Print.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/Print.java">
+      <file leaf-file-name="UseMappedFile.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/UseMappedFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+            <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocketTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/SocketTest.java">
+      <file leaf-file-name="UseFloatBuffer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/UseFloatBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="87" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+            <state line="4" column="13" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/Test.java">
+      <file leaf-file-name="UseFileLocks.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/UseFileLocks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="49" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+            <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileReader.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/FileReader.java">
+      <file leaf-file-name="UseCharsets.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/UseCharsets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="103" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.2397163">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CopyFile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/CopyFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="1" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+            <state line="7" column="13" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buffer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/nio/Buffer.java">
+      <file leaf-file-name="TypesInByteBuffer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/TypesInByteBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="84" selection-start="5771" selection-end="6051" vertical-scroll-proportion="0.0">
+            <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParsePhoneNumber.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/util/ParsePhoneNumber.java">
+      <file leaf-file-name="SliceBuffer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/SliceBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="104" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+            <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadAndShow.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/ReadAndShow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="26" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -402,8 +412,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -506,6 +514,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -530,6 +540,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\Proj\ThinkingInJava\src\main\java\net\nio" />
       <recent name="C:\Dev\Proj\ThinkingInJava\src\main\java\util" />
       <recent name="C:\Dev\GitHub\ThinkingInJava\src\main\java\util" />
     </key>
@@ -843,8 +854,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="916" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -860,11 +871,11 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37266186" sideWeight="0.6025641" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37913668" sideWeight="0.6025641" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38073394" sideWeight="0.6025641" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.41398603" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.252518" sideWeight="0.6025641" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.41402116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5230216" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="92" y="92" width="1256" height="716" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2323741" sideWeight="0.6015831" order="2" side_tool="false" content_ui="combo" />
@@ -940,107 +951,115 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/HighPortScanner.java">
+    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/nio/channels/Selector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/net/SocketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="6" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/SingleFileHTTPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="132" selection-start="2783" selection-end="2783" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/util/ParsePhoneNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="104" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/jre/lib/jce.jar!/javax/crypto/Mac.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="74" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.4483945" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/jre/lib/jce.jar!/javax/crypto/SecretKey.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="159" selection-end="159" vertical-scroll-proportion="0.096045196" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/jre/lib/jce.jar!/javax/crypto/AEADBadTagException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="424" selection-end="424" vertical-scroll-proportion="0.21129943" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/util/ComputeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/jre/lib/jce.jar!/javax/crypto/spec/DESedeKeySpec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="115" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/jre/lib/jce.jar!/javax/crypto/spec/DESKeySpec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="96" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/SocketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="87" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="49" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.7.0_45/src.zip!/java/nio/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="84" selection-start="5771" selection-end="6051" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="205" column="22" selection-start="8149" selection-end="8149" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/CopyFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="1" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+        <state line="10" column="52" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/CreateArrayBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/CreateBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/FastCopyFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="103" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.2397163">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="44" column="86" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/WriteSomeBytes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/UseScatterGather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/UseMappedFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/UseFloatBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/UseFileLocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/UseCharsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/TypesInByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/SliceBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/ReadAndShow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="26" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/MultiPortEcho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="38" selection-start="414" selection-end="414" vertical-scroll-proportion="0.45333335">
+          <folding />
         </state>
       </provider>
     </entry>
