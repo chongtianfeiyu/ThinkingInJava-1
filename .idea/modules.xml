@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MinaDemo/MinaDemo.iml" filepath="$PROJECT_DIR$/MinaDemo/MinaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThinkingInJava.iml" filepath="$PROJECT_DIR$/ThinkingInJava.iml" />
     </modules>
   </component>

@@ -6,7 +6,11 @@
 
     <groupId>ThinkingInJava</groupId>
     <artifactId>ThinkingInJava</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>MinaDemo</module>
+    </modules>
 
-    
+
 </project>
