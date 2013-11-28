@@ -25,7 +25,7 @@ import java.text.DecimalFormat;
  */
 public class GetFileSize
 {
-    public long getFileSizes(File f) throws Exception{//取得文件大小
+  /*  public long getFileSizes(File f) throws Exception{//取得文件大小
         long s=0;
         if (f.exists()) {
             FileInputStream fis = null;
@@ -112,5 +112,5 @@ public class GetFileSize
         }
         long endTime = System.currentTimeMillis();
         System.out.println("总共花费时间为：" + (endTime - startTime) + "毫秒...");
-    }
+    }*/
 }

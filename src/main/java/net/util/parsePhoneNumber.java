@@ -5,7 +5,7 @@ package net.util;
  * Date: 13-11-20
  * Time: 下午2:40
  */
-public class ParsePhoneNumber {
+class ParsePhoneNumber {
     public static void main(String[] args) {
         System.out.println(Long.valueOf(phoneNumberToCode("13886654567"),16));
 

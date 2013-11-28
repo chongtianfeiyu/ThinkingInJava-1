@@ -1,4 +1,4 @@
-package Calculator;
+package calculator;
 
 import org.apache.mina.core.service.IoAcceptor;
 import org.apache.mina.filter.codec.ProtocolCodecFilter;
@@ -16,7 +16,7 @@ import java.nio.charset.Charset;
  * Created with IntelliJ IDEA.
  * User: ViaPro
  * Date: 13-11-26
- * Time: 下午5:59
+ * Time: 涓嬪崍5:59
  * To change this template use File | Settings | File Templates.
  */
 public class CalculatorServer {
@@ -33,6 +33,6 @@ public class CalculatorServer {
         acceptor.setHandler(new CalculatorHandler());
         acceptor.bind(new InetSocketAddress(PORT));
 
-        LOGGER.info("计算器服务已启动，端口是" + PORT);
+        LOGGER.info("璁＄畻鍣ㄦ湇鍔″凡鍚姩锛岀鍙ｆ槸" + PORT);
     }
 }

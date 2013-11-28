@@ -9,8 +9,9 @@ package net;
  */
 public class Test {
     public static void main(String[] args){
-        System.out.println(0x77==119);
-        System.out.println("aaa, just in case!");
+        System.out.println((byte)0x91==(byte)0x91);
+        System.out.println(Integer.toBinaryString(0x91));
     }
+
 
 }

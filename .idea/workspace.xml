@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c332c42-385d-4ab2-98ea-65280f3d8342" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/GuardedBy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/Immutable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/NotThreadSafe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/ThreadSafe.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/protocol/DownPacket.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinaDemo/src/main/java/protocal/MyProtocalDecoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/protocol/Packet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/protocol/Tag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinaDemo/src/main/java/timer/TimeHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinaDemo/src/main/java/timer/TimeServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/protocol/UpPacket.java" />
+      <change type="MODIFICATION" beforePath="C:\Dev\Proj\ThinkingInJava\MinaDemo\src\main\java\calculator\CalculatorHandler.java" afterPath="$PROJECT_DIR$/MinaDemo/src/main/java/calculator/CalculatorHandler.java" />
+      <change type="MODIFICATION" beforePath="C:\Dev\Proj\ThinkingInJava\MinaDemo\src\main\java\calculator\CalculatorServer.java" afterPath="$PROJECT_DIR$/MinaDemo/src/main/java/calculator/CalculatorServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/GetFileSize.java" afterPath="$PROJECT_DIR$/src/main/java/util/GetFileSize.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MinaDemo/MinaDemo.iml" afterPath="$PROJECT_DIR$/MinaDemo/MinaDemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/Test.java" afterPath="$PROJECT_DIR$/src/main/java/net/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/util/parsePhoneNumber.java" afterPath="$PROJECT_DIR$/src/main/java/net/util/parsePhoneNumber.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ThinkingInJava.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385516278698" ignored="false" />
+    <file path="/Dummy.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
     <file path="$PROJECT_DIR$/../Think/.idea/workspace.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383370881826" ignored="false" />
     <file path="/LiftOff.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383391451612" ignored="false" />
     <file path="/MainThread.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1383371530996" ignored="false" />
@@ -90,23 +99,23 @@
     <file path="$PROJECT_DIR$/../graylog2-server/.idea/vcs.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384854567042" ignored="false" />
     <file path="$PROJECT_DIR$/../graylog2-server/.idea/misc.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384854567042" ignored="false" />
     <file path="$PROJECT_DIR$/../graylog2-server/.idea/workspace.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384854567042" ignored="false" />
-    <file path="$PROJECT_DIR$/../netty/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384856030943" ignored="false" />
-    <file path="$PROJECT_DIR$/../netty/.fbfilter.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384856030943" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/.fbfilter.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786829" ignored="false" />
     <file path="$PROJECT_DIR$/../netty/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServer.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384857336215" ignored="false" />
     <file path="$PROJECT_DIR$/../netty/.idea/workspace.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385204912063" ignored="false" />
     <file path="$PROJECT_DIR$/../netty/license/LICENSE.base64.txt" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384913437921" ignored="false" />
     <file path="/parsePhoneNumber.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384939735200" ignored="false" />
-    <file path="$PROJECT_DIR$/../netty/buffer/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384941398384" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/buffer/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786829" ignored="false" />
     <file path="/ParsePhoneNumber.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1384943603103" ignored="false" />
     <file path="/ComputeTest.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385014722347" ignored="false" />
     <file path="$PROJECT_DIR$/../netty/transport/src/main/java/io/netty/bootstrap/Bootstrap.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385100160955" ignored="false" />
     <file path="$PROJECT_DIR$/../netty/example/src/main/java/io/netty/example/discard/DiscardServerHandler.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385105223647" ignored="false" />
     <file path="/DiscardServerHandler.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385105220538" ignored="false" />
-    <file path="/Test.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385374995168" ignored="false" />
+    <file path="/Test.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385607640854" ignored="false" />
     <file path="/FileReader.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385189650473" ignored="false" />
     <file path="/CopyFile.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385191002358" ignored="false" />
     <file path="$PROJECT_DIR$/../netty/buffer/src/main/java/io/netty/buffer/ByteBuf.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385204904457" ignored="false" />
-    <file path="$PROJECT_DIR$/../safecard/.idea/workspace.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385461487233" ignored="false" />
+    <file path="$PROJECT_DIR$/../safecard/.idea/workspace.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385632310155" ignored="false" />
     <file path="/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385459293924" ignored="false" />
     <file path="/CalculatorHandler.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385459822066" ignored="false" />
     <file path="/CalculatorServer.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385515823606" ignored="false" />
@@ -119,6 +128,35 @@
     <file path="$PROJECT_DIR$/../safecard/util/src/main/java/javax/annotation/concurrent/ThreadSafe.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385517031430" ignored="false" />
     <file path="$PROJECT_DIR$/../safecard/util/src/main/java/javax/annotation/concurrent/Immutable.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385517039787" ignored="false" />
     <file path="$PROJECT_DIR$/../safecard/util/src/main/java/javax/annotation/concurrent/NotThreadSafe.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385517027498" ignored="false" />
+    <file path="$PROJECT_DIR$/../safecard/web/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385607840592" ignored="false" />
+    <file path="/Tag.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385608549023" ignored="false" />
+    <file path="/Packet.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385609612046" ignored="false" />
+    <file path="/UpPacket.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385610068416" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/util/SingleFileHTTPServer.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385623894277" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/concurrency/WaxOMatic.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385623894277" ignored="false" />
+    <file path="/TimeServer.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385624482259" ignored="false" />
+    <file path="/TimeHandler.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385624576883" ignored="false" />
+    <file path="$PROJECT_DIR$/../mina/core/src/main/java/org/apache/mina/api/IoServer.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385626848314" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/example/src/main/java/io/netty/example/socksproxy/RelayHandler.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/codec/src/main/java/io/netty/handler/codec/bytes/ByteArrayDecoder.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/microbench/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/all/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/tarball/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/common/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786829" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/codec/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786829" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/codec-http/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786829" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/transport-rxtx/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/transport-sctp/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/transport-udt/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/example/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/codec/src/main/java/io/netty/handler/codec/bytes/ByteArrayEncoder.java" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/codec-memcache/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786829" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/codec-socks/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/transport/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/README.md" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/handler/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786831" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/testsuite/pom.xml" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
+    <file path="$PROJECT_DIR$/../netty/.fbprefs" changelist="4c332c42-385d-4ab2-98ea-65280f3d8342" time="1385630786830" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +176,23 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/concurrency/WaxOMatic.java" line="34" class="concurrency.Car" package="concurrency">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
@@ -176,23 +231,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/concurrency/WaxOMatic.java" line="34" class="concurrency.Car" package="concurrency">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -202,55 +240,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/Test.java">
+      <file leaf-file-name="UpPacket.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/protocol/UpPacket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+            <state line="27" column="25" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MinaDemo/pom.xml">
+      <file leaf-file-name="MyProtocalDecoder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/protocal/MyProtocalDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="57" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="58" selection-start="526" selection-end="526" vertical-scroll-proportion="0.28878823">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalculatorHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/Calculator/CalculatorHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="101" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinaDemo.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MinaDemo/MinaDemo.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalculatorServer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/Calculator/CalculatorServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+            <state line="12" column="26" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -258,19 +260,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuardedBy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/GuardedBy.java">
+      <file leaf-file-name="AttributeKey.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mina/mina-core/2.0.7/mina-core-2.0.7-sources.jar!/org/apache/mina/core/session/AttributeKey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="52" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+            <state line="39" column="51" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#2767#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculatorServer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/calculator/CalculatorServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="50" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Immutable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/Immutable.java">
+      <file leaf-file-name="TimeServer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/timer/TimeServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="18" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0">
+            <state line="24" column="14" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IoAcceptor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mina/mina-core/2.0.7/mina-core-2.0.7-sources.jar!/org/apache/mina/core/service/IoAcceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="40" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#8588#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeHandler.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/timer/TimeHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="91" selection-start="258" selection-end="258" vertical-scroll-proportion="0.25972223">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProtocolDecoder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mina/mina-core/2.0.7/mina-core-2.0.7-sources.jar!/org/apache/mina/filter/codec/ProtocolDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="47" selection-start="2759" selection-end="2759" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#2883#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Packet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/protocol/Packet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -294,22 +353,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/net/HighPortScanner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/util/parsePhoneNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/util/ParsePhoneNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/util/ComputeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/SocketTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/nio/FileReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/nio/CopyFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/nio/UseCharsets.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/Test.java" />
-        <option value="$PROJECT_DIR$/MinaDemo/src/main/java/Calculator/CalculatorHandler.java" />
-        <option value="$PROJECT_DIR$/MinaDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/MinaDemo/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/MinaDemo/src/main/java/Calculator/CalculatorServer.java" />
         <option value="$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/ThreadSafe.java" />
         <option value="$PROJECT_DIR$/MinaDemo/src/main/concurrent/ThreadSafe.java" />
         <option value="$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/GuardedBy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/GetFileSize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/util/parsePhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/protocol/Tag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/protocol/Packet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/protocol/UpPacket.java" />
+        <option value="$PROJECT_DIR$/MinaDemo/src/main/java/server/MyProtocalDecoder.java" />
+        <option value="$PROJECT_DIR$/MinaDemo/src/main/java/server/MyDecoder.java" />
+        <option value="$PROJECT_DIR$/MinaDemo/src/main/java/protocal/MyProtocalDecoder.java" />
+        <option value="$PROJECT_DIR$/MinaDemo/src/main/java/Calculator/CalculatorServer.java" />
+        <option value="$PROJECT_DIR$/MinaDemo/src/main/java/calculator/CalculatorServer.java" />
+        <option value="$PROJECT_DIR$/MinaDemo/src/main/java/timer/TimeHandler.java" />
+        <option value="$PROJECT_DIR$/MinaDemo/src/main/java/timer/TimeServer.java" />
       </list>
     </option>
   </component>
@@ -351,6 +410,9 @@
             <id />
           </State>
           <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
             <id>DOM issuesJavaScript</id>
           </State>
           <State>
@@ -375,6 +437,11 @@
             <id>Spring Model</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -406,6 +473,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -424,71 +492,268 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MinaDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MinaDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MinaDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="timer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MinaDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="options.lastSelected" value="File.Encoding" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\Proj\ThinkingInJava\src\main\java\net\protocol" />
       <recent name="C:\Dev\Proj\ThinkingInJava\MinaDemo\src\main\java" />
       <recent name="C:\Dev\Proj\ThinkingInJava\MinaDemo\src\main" />
       <recent name="C:\Dev\Proj\ThinkingInJava\src\main\java\net\nio" />
       <recent name="C:\Dev\Proj\ThinkingInJava\src\main\java\util" />
-      <recent name="C:\Dev\GitHub\ThinkingInJava\src\main\java\util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Dev\Proj\ThinkingInJava\MinaDemo\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculatorServer">
-    <configuration default="false" name="ComputeTest" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="net.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="net.util.ComputeTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkingInJava" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TimeServer">
     <configuration default="false" name="SocketTest" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -555,6 +820,50 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="Tag" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.protocol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.protocol.Tag" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkingInJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TimeServer" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="timer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="timer.TimeServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MinaDemo" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -591,6 +900,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -617,19 +939,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -671,11 +980,11 @@
     <configuration default="false" name="CalculatorServer" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Calculator.*" />
+          <option name="PATTERN" value="calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Calculator.CalculatorServer" />
+      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorServer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -720,20 +1029,22 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.CalculatorServer" />
       <item index="1" class="java.lang.String" itemvalue="Application.OrnamentalGarden" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ComputeTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SocketTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="5" class="java.lang.String" itemvalue="Application.FileReader" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SocketTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FileReader" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Tag" />
+      <item index="6" class="java.lang.String" itemvalue="Application.TimeServer" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.FileReader" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SocketTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ComputeTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.TimeServer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Tag" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FileReader" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SocketTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -769,8 +1080,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29807693" sideWeight="0.8258547" order="4" side_tool="false" content_ui="combo" x="92" y="92" width="1256" height="716" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -782,21 +1094,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266187" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1741453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28792736" sideWeight="0.6025641" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29113248" sideWeight="0.8258547" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1875" sideWeight="0.6025641" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.41452992" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5230216" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="92" y="92" width="1256" height="716" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1875" sideWeight="0.8258547" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.41452992" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2323741" sideWeight="0.6015831" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -865,97 +1176,129 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/SliceBuffer.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/TypesInByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+        <state line="15" column="10" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/ReadAndShow.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/GetFileSize.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+        <state line="114" column="7" selection-start="611" selection-end="3381" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/UseCharsets.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/util/parsePhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="39" selection-start="701" selection-end="701" vertical-scroll-proportion="0.38505095" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/nio/MultiPortEcho.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="58" selection-start="581" selection-end="581" vertical-scroll-proportion="0.34654588" />
+        <state line="7" column="18" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/Calculator/CalculatorHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/protocol/DownPacket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="101" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
+        <state line="8" column="43" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MinaDemo/MinaDemo.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/protocol/Tag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="23" column="60" selection-start="871" selection-end="871" vertical-scroll-proportion="-15.64">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MinaDemo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/protocol/Packet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="57" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/protocol/UpPacket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="61" selection-start="492" selection-end="492" vertical-scroll-proportion="0.17307693">
+        <state line="27" column="25" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/Calculator/CalculatorServer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mina/mina-core/2.0.7/mina-core-2.0.7-sources.jar!/org/apache/mina/filter/codec/ProtocolDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+        <state line="63" column="47" selection-start="2759" selection-end="2759" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#2883#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/protocal/MyProtocalDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="26" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/Immutable.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mina/mina-core/2.0.7/mina-core-2.0.7-sources.jar!/org/apache/mina/core/session/AttributeKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="18" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0">
+        <state line="39" column="51" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#2767#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/calculator/CalculatorServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="50" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/GuardedBy.java">
+    <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/timer/TimeServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="52" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+        <state line="24" column="14" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mina/mina-core/2.0.7/mina-core-2.0.7-sources.jar!/org/apache/mina/core/service/IoAcceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="40" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#8588#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mina/mina-core/2.0.7/mina-core-2.0.7-sources.jar!/org/apache/mina/core/service/IoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="53" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.73194444">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/MinaDemo/src/main/java/timer/TimeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="58" selection-start="526" selection-end="526" vertical-scroll-proportion="0.28878823">
-          <folding />
+        <state line="11" column="91" selection-start="258" selection-end="258" vertical-scroll-proportion="0.25972223">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

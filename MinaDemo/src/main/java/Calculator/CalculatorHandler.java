@@ -1,4 +1,4 @@
-package Calculator;
+package calculator;
 
 import org.apache.mina.core.service.IoHandlerAdapter;
 import org.apache.mina.core.session.IoSession;
@@ -13,7 +13,7 @@ import javax.script.ScriptException;
  * Created with IntelliJ IDEA.
  * User: ViaPro
  * Date: 13-11-26
- * Time: ÏÂÎç5:50
+ * Time: ï¿½ï¿½ï¿½ï¿½5:50
  * To change this template use File | Settings | File Templates.
  */
 public class CalculatorHandler extends IoHandlerAdapter {
@@ -26,7 +26,7 @@ public class CalculatorHandler extends IoHandlerAdapter {
         ScriptEngineManager sfm = new ScriptEngineManager();
         jsEngine = sfm.getEngineByName("JavaScript");
         if (jsEngine == null)
-            throw new RuntimeException("ÕÒ²»µ½JavaScriptÒýÇæ¡£");
+            throw new RuntimeException("ï¿½Ò²ï¿½ï¿½ï¿½JavaScriptï¿½ï¿½ï¿½æ¡£");
     }
 
     @Override
