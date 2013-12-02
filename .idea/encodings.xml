@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
-    <file url="file://$PROJECT_DIR$/MinaDemo/src/main/java/calculator/CalculatorServer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MinaDemo/src/main/java/Calculator/CalculatorServer.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/GuardedBy.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/Immutable.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/NotThreadSafe.java" charset="UTF-8" />
