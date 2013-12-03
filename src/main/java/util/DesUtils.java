@@ -8,14 +8,13 @@ import sun.misc.BASE64Encoder;
 import javax.crypto.*;
 import javax.crypto.spec.DESKeySpec;
 import javax.crypto.spec.DESedeKeySpec;
+import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 import java.io.IOException;
-import java.security.InvalidKeyException;
-import java.security.Key;
-import java.security.NoSuchAlgorithmException;
-import java.security.SecureRandom;
+import java.security.*;
 import java.util.Arrays;
 
+import static javax.crypto.Cipher.DECRYPT_MODE;
 import static javax.crypto.Cipher.ENCRYPT_MODE;
 
 /**
@@ -28,9 +27,13 @@ import static javax.crypto.Cipher.ENCRYPT_MODE;
 
 public class DesUtils {
 
-    public static byte[] encrypt(byte[] data, byte[] key) {
+    public static final String TriDES_ECB_MODE = "DESede/ECB/NoPadding";
+//    public static final String DES_ECB_MODE = "DES/ECB/NoPadding";
+    public static final String DES_CBC_MODE = "DES/CBC/NoPadding";
+
+/*    public static byte[] encrypt(byte[] data, byte[] key) {
         try {
-            Cipher cipher = Cipher.getInstance("DES");
+            Cipher cipher = Cipher.getInstance("DES/ECB/NoPadding");
             cipher.init(ENCRYPT_MODE, new SecretKeySpec(key, "DES"));
             return cipher.doFinal(data);
         } catch (NoSuchAlgorithmException e) {
@@ -45,20 +48,12 @@ public class DesUtils {
             e.printStackTrace();
         }
         return null;
-    }
+    }*/
 
-    /**
-     * @param data
-     * @param key
-     * @param isTriDES
-     * @return
-     */
-    public static byte[] encrypt(byte[] data, byte[] key, boolean isTriDES) {
-        if (!isTriDES)
-            return encrypt(data, key);
-        byte[] newKey =key.length==24?key: ArrayUtils.addAll(key, ArrayUtils.subarray(key, 0, 8));
+    public static byte[] encrypt(byte[] data, byte[] key) {
         try {
-            Cipher cipher = Cipher.getInstance("DESede/ECB/NOPADDING");
+            byte[] newKey = key.length == 24 ? key : ArrayUtils.addAll(key, ArrayUtils.subarray(key, 0, 8));
+            Cipher cipher = Cipher.getInstance(TriDES_ECB_MODE);
             cipher.init(ENCRYPT_MODE, new SecretKeySpec(newKey, "DESede"));
             return cipher.doFinal(data);
         } catch (IllegalBlockSizeException e) {
@@ -75,6 +70,27 @@ public class DesUtils {
         return null;
     }
 
+    public static byte[] encryptInCBC(byte[] data, byte[] key, byte[] iv) {
+        try {
+            Cipher cipher = Cipher.getInstance(DES_CBC_MODE);
+            cipher.init(ENCRYPT_MODE, new SecretKeySpec(key, "DES"), new IvParameterSpec(iv));
+            return cipher.doFinal(data);
+        } catch (InvalidKeyException e) {
+            e.printStackTrace();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        } catch (NoSuchPaddingException e) {
+            e.printStackTrace();
+        } catch (InvalidAlgorithmParameterException e) {
+            e.printStackTrace();
+        } catch (BadPaddingException e) {
+            e.printStackTrace();
+        } catch (IllegalBlockSizeException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 
     /**
      * Description 根据键值进行解密
@@ -84,14 +100,30 @@ public class DesUtils {
      * @return
      * @throws Exception
      */
-    public static byte[] decrypt(byte[] data, byte[] key) throws Exception {
-        SecureRandom sr = new SecureRandom();
-        DESKeySpec dks = new DESKeySpec(key);
-        SecretKeyFactory keyFactory = SecretKeyFactory.getInstance("DES");
-        SecretKey securekey = keyFactory.generateSecret(dks);
-        Cipher cipher = Cipher.getInstance("DES");
-        cipher.init(Cipher.DECRYPT_MODE, securekey, sr);
-        return cipher.doFinal(data);
+    public static byte[] decrypt(byte[] data, byte[] key) {
+        try {
+            Cipher cipher=Cipher.getInstance(TriDES_ECB_MODE);
+            cipher.init(DECRYPT_MODE, new SecretKeySpec(key,"DESede"));
+            return cipher.doFinal(data);
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        } catch (NoSuchPaddingException e) {
+            e.printStackTrace();
+        } catch (InvalidKeyException e) {
+            e.printStackTrace();
+        } catch (BadPaddingException e) {
+            e.printStackTrace();
+        } catch (IllegalBlockSizeException e) {
+            e.printStackTrace();
+        }
+        return null;
+//        SecureRandom sr = new SecureRandom();
+//        DESKeySpec dks = new DESKeySpec(key);
+//        SecretKeyFactory keyFactory = SecretKeyFactory.getInstance("DES");
+//        SecretKey securekey = keyFactory.generateSecret(dks);
+//        Cipher cipher = Cipher.getInstance("DES");
+//        cipher.init(Cipher.DECRYPT_MODE, securekey, sr);
+//        return cipher.doFinal(data);
     }
 
 

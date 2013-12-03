@@ -15,21 +15,23 @@ import java.util.Random;
 
 @Immutable
 public class CipherUtils {
-    public static byte[] getKc() {
-        return null;
+
+    //获取会话密钥
+    public static byte[] getKc(byte[] random, byte[] key, byte[] phoneNumber) {
+        return PBOC(phoneNumber, PBOC(random, key));
     }
 
-    private static byte[] PBOC(byte[] key, byte[] factor) {
+    public static byte[] getMAC(byte[] data, byte[] key) {
+        return DesUtils.encryptInCBC(appendData(data, 8, (byte) 0x20), key, new byte[8]);
+    }
+
+    private static byte[] PBOC(byte[] factor, byte[] key) {
         byte[] seed = appendData(factor, 8, (byte) 0x20);
-        return ArrayUtils.addAll(DesUtils.encrypt(seed, key),DesUtils.encrypt(NOT(seed),key));
-    }
-
-    private static byte[] mac() {
-        return null;
+        return ArrayUtils.addAll(DesUtils.encrypt(seed, key), DesUtils.encrypt(NOT(seed), key));
     }
 
     //产生定长的byte数组
-    private static byte[] randomBytes(int len) {
+    public static byte[] randomBytes(int len) {
         byte[] result = new byte[len];
         new Random().nextBytes(result);
         return result;
@@ -44,48 +46,18 @@ public class CipherUtils {
         return result;
     }
 
-    //以字节为单位进行异或运算
-    private static byte xOr(byte[] data) {
-        byte result = 0;
-        for (byte b : data)
-            result ^= b;
-        return result;
-    }
-
-    private static byte[] NOT(byte[] data){
+    private static byte[] NOT(byte[] data) {
         byte[] result = new byte[data.length];
-        for(int i =0;i<data.length;i++)
-            result[i]= (byte) ~data[i];//未验证！
+        for (int i = 0; i < data.length; i++)
+            result[i] = (byte) ~data[i];
         return result;
     }
-
 
 
     public static void main(String[] args) throws Exception {
 
-        for(byte b : DesUtils.encrypt(new byte[]{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00},
-                new byte[]{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}, true))
+        for (byte b : getMAC(new byte[]{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, (byte) 0xAA}, new byte[]{0x01, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}))
             System.out.println(b);
 
-//        for(byte b: NOT(new byte[]{0x00,0x11,0x02}))
-//            System.out.println(b);
-
-
-//        System.out.println(new BASE64Decoder().decodeBuffer("YWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4").length);
-
-
-
-
-/*        byte[] randBytes = randomBytes(3);
-        for (byte b : randBytes)
-            System.out.println(b);
-        for (byte b : comData(randBytes, 8, (byte) 0x20))
-            System.out.println(b);
-            */
-/*
-        byte[] data = new byte[]{(byte) 0x99, (byte) 0x88,(byte)0x11};
-        System.out.println(xOr(data));
-        */
     }
-
 }
