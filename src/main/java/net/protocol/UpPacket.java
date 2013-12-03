@@ -26,6 +26,6 @@ public class UpPacket implements Packet {
     private int random;
     private int mac;
     private short length;
-
+    private Command command;
 
 }

@@ -4,7 +4,7 @@ package net.protocol;
  * Created with IntelliJ IDEA.
  * User: ViaPro
  * Date: 13-11-28
- * Time: ионГ9:55
+ * Time: AM 9:55
  * To change this template use File | Settings | File Templates.
  */
 
