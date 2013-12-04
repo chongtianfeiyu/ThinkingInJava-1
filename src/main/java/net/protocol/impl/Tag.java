@@ -1,4 +1,6 @@
-package net.protocol;
+package net.protocol.impl;
+
+import net.protocol.SCObject;
 
 /**
  * Created with IntelliJ IDEA.
@@ -8,7 +10,7 @@ package net.protocol;
  * To change this template use File | Settings | File Templates.
  */
 
-public class Tag {
+public class Tag implements SCObject {
 
     public static final byte CARD_ID = (byte) 0x91;
     public static final byte CARD_PROGRAM_VERSION = (byte) 0x92;
@@ -31,28 +33,27 @@ public class Tag {
         return id;
     }
 
-    public void setId(byte id) {
+    public Tag setId(byte id) {
         this.id = id;
+        return this;
     }
 
     public byte getLength() {
         return length;
     }
 
-    public void setLength(byte length) {
+    public Tag setLength(byte length) {
         this.length = length;
+        return this;
     }
 
     public byte[] getContent() {
         return content;
     }
 
-    public void setContent(byte[] content) {
+    public Tag setContent(byte[] content) {
         this.content = content;
-    }
-
-    public static void main(String[] args) {
-        System.out.println((byte) 0x91 == -111);
+        return this;
     }
 
 }

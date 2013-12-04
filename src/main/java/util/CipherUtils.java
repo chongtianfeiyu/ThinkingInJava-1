@@ -53,11 +53,8 @@ public class CipherUtils {
         return result;
     }
 
-
     public static void main(String[] args) throws Exception {
-
         for (byte b : getMAC(new byte[]{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, (byte) 0xAA}, new byte[]{0x01, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}))
             System.out.println(b);
-
     }
 }

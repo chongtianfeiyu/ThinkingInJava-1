@@ -1,4 +1,6 @@
-package net.protocol;
+package net.protocol.impl;
+
+import net.protocol.Command;
 
 /**
  * Created with IntelliJ IDEA.
@@ -7,7 +9,7 @@ package net.protocol;
  * Time: 下午7:04
  * To change this template use File | Settings | File Templates.
  */
-public class DownCommand extends Command {
+public class RequestCommData extends CommData implements Command {
     public static final byte OP_OPEN_CARD = 0x01;
     public static final byte OP_DEL_CARD = 0x02;
     public static final byte OP_LOST_CARD = 0x03;

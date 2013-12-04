@@ -7,9 +7,6 @@
     <file url="file://$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/NotThreadSafe.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MinaDemo/src/main/java/concurrent/ThreadSafe.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MinaDemo/src/main/java/protocal/MyProtocalDecoder.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/net/protocol/DownPacket.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/net/protocol/Packet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/net/protocol/UpPacket.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
