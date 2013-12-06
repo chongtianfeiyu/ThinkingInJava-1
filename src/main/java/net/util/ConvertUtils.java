@@ -23,11 +23,12 @@ public class ConvertUtils {
         }
         return d;
     }
+
     private static byte charToByte(char c) {
         return (byte) "0123456789ABCDEF".indexOf(c);
     }
 
-    public static String bytesToHexString(byte[] src){
+    public static String bytesToHexString(byte[] src) {
         StringBuilder stringBuilder = new StringBuilder("");
         if (src == null || src.length <= 0) {
             return null;
@@ -44,7 +45,7 @@ public class ConvertUtils {
     }
 
     //byte转16进制
-    public String printHexString( byte[] b) {
+    public String printHexString(byte[] b) {
         String a = "";
         for (int i = 0; i < b.length; i++) {
             String hex = Integer.toHexString(b[i] & 0xFF);
@@ -52,17 +53,17 @@ public class ConvertUtils {
                 hex = '0' + hex;
             }
 
-            a = a+hex;
+            a = a + hex;
         }
 
         return a;
     }
 
-   public static void main(String[] args){
-       for(byte b : hexStringToBytes("0A0B00AAFF0FFC9910"))
-           System.out.println(b);
+    public static void main(String[] args) {
+        for (byte b : hexStringToBytes("0A0B00AAFF0FFC9910"))
+            System.out.println(b);
 
-   }
+    }
 
 
 }

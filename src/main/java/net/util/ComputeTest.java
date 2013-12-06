@@ -14,5 +14,7 @@ public class ComputeTest {
         System.out.printf("%x\n", i|j);
         System.out.printf("%x\n", i&j);
 
+        //how to arrive?
+
     }
 }
